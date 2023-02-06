@@ -1,0 +1,14 @@
+{
+  "extends": "@piktew/eslint-config-node",
+  "rules": {
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_id",
+          "_env"
+        ]
+      }
+    ]
+  }
+}
